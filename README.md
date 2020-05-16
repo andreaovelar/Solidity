@@ -21,6 +21,7 @@ Fortunately, you've been learning how to program smart contracts with Solidity! 
 * Deploy contracts using remix.
 * Please note that for last file deferred equity plan we are using the kovan network to test and view transactions on etherscan
 
+## File AssociateProfitSplitter
 
 Please find below screenshot in which we show the deployment in remix for Associate file using local network 
 
@@ -42,31 +43,35 @@ Please find below screenshot of balance after distributing Ether from first acco
 
 ![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture11.PNG "CLOSE")
 
-Please find below screenshot for of Bitcoin Testnet transactios recorded for our address 2 received and 6 sent 
+## File TieredProfitSplitter
+
+Please find below screenshot for initial balances from account 1 to 4 
 
 ![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture12.PNG "CLOSE")
 
-Please find below screenshot in which we check in git bash that hd wallet derive is working properly. output should look like this after 
+Please find below screenshot in which we confirm contract deployment  
 
 ![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture13.PNG "CLOSE")
 
-Please find below screenshot for of Bitcoin Testnet transactios recorded for our address 2 received and 6 sent 
+Please find below screenshot that shows the distribution of 10 ETH among employees 2 to 4 
 
 ![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture14.PNG "CLOSE")
 
-Please find below screenshot for of Bitcoin Testnet transactios recorded for our address 2 received and 6 sent 
+Please find below screenshot for balances of the employess. Please note that second address received 6.5 ETH, third 2.5 and forth 1.5 
 
 ![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture15.PNG "CLOSE")
 
-Please find below screenshot in which we check in git bash that hd wallet derive is working properly. output should look like this after 
+## File DeferredProfitSplitter
+
+Please find below screenshot in which we deploy the contract in the local network 
 
 ![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture16.PNG "CLOSE")
 
-Please find below screenshot for of Bitcoin Testnet transactios recorded for our address 2 received and 6 sent 
+Please find below screenshot for contract interaction in which we test fast_forward function
 
 ![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture17.PNG "CLOSE")
 
-Please find below screenshot for of Bitcoin Testnet transactios recorded for our address 2 received and 6 sent 
+Please find below screenshot for Distribution function output. In this case the equity plan corresponds of a one year worth of stock (250 shares)
 
 ![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture18.PNG "CLOSE")
 
