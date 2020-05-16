@@ -1,45 +1,89 @@
 # Solidity
 
-# Solidity_HW
+###  Solidity_HW
+####  Background
+Your new startup has created its own Ethereum-compatible blockchain to help connect financial institutions, and the team wants to build smart contracts to automate some company finances to make everyone's lives easier, increase transparency, and to make accounting and auditing practically automatic!
 
-###  Multi-Blockchain Wallet in Python
-####  Connecting hd-wallet-derive with python 
-After you've integrated this "universal" wallet, you can begin to manage billions of addresses across 300+ coins in this example we are going to use Ethereum and Bitcoin Testnet
+Fortunately, you've been learning how to program smart contracts with Solidity! What you will be doing this assignment is creating a few ### ProfitSplitter contracts. These contracts will do several things:
+* Pay your Associate-level employees quickly and easily.
+* Distribute profits to different tiers of employees.
+* Distribute company shares for employees in a "deferred equity incentive plan" automatically.
 
-## Dependencies  
-* PHP must be installed on your operating system (any version, 5 or 7). Don't worry, you will not need to know any PHP.
-* You will need to clone the hd-wallet-derive tool.
-* bit Python Bitcoin library.
-* web3.py Python Ethereum library.
+## Files  
+* AssociateProfitSplitter.sol -- 
+* TieredProfitSplitter.sol -- 
+* DeferredEquityPlan.sol -- 
 
 ## Steps  
-* Project setup files and and programs shold look like the repo with the wallet.py, derive, constants, hd_wallet_derive, main code with output is saved in walletnotebook 
-* Generate a Mnemonic 
-* Send transactions using the following commands 
-* Please note that for ethereum two nodes for your testnet should be running on the git bash in order for the tx to send 
+* Connect Ganache in local network, 
+* Open metamask in local network and 
+* Deploy contracts using remix.
+* Please note that for last file deferred equity plan we are using the kovan network to test and view transactions on etherscan
 
-Please find below screenshot in which we check in git bash that hd wallet derive is working properly. output should look like this after cloning repo and running below command 
 
-![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture3.PNG "CLOSE")
+Please find below screenshot in which we check in git bash that hd wallet derive is working properly. output should look like this after 
+
+![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture7.PNG "CLOSE")
 
 Please find below screenshot for of Bitcoin Testnet transactios recorded for our address 2 received and 6 sent 
 
-![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture1.PNG "CLOSE")
-
-Please find below screenshot for of Bitcoin Testnet transaction using the block explorer, please note the hash of the transaction and the different addresses used.
-
-![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture.PNG "CLOSE")
-
-### Using the banknet configuration we created in Blockchain_HW18 we then proceed to mine two nodes as shown previously. Please remember commands to mine to send ETH 
-* First git bash window ./geth --datadir node1 --mine --minerthreads 1
-* After Opening a new git bash. Please find below the following command ./geth --datadir node2 --port 30304 --rpc --bootnodes"enode://da89aa7ca0466d909a0fbcf71ff621d6a80be4bb1a8a4d23addf2cb6aa37d4581668555933b279c448afc801119a909ba5fca66b5b363d04a8a0be4de9cc1fa2@127.0.0.1:30303" --ipcdisable 
- The screenshot shows the confirmation of the transaction and respective hash using git bash
-
-![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture5.PNG "CLOSE")
-
-Please find below same hash transaction when we open myCrypto app as well
-
 ![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture8.PNG "CLOSE")
+
+Please find below screenshot for of Bitcoin Testnet transactios recorded for our address 2 received and 6 sent 
+
+![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture9.PNG "CLOSE")
+
+Please find below screenshot in which we check in git bash that hd wallet derive is working properly. output should look like this after 
+
+![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture10.PNG "CLOSE")
+
+Please find below screenshot for of Bitcoin Testnet transactios recorded for our address 2 received and 6 sent 
+
+![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture11.PNG "CLOSE")
+
+Please find below screenshot for of Bitcoin Testnet transactios recorded for our address 2 received and 6 sent 
+
+![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture12.PNG "CLOSE")
+
+Please find below screenshot in which we check in git bash that hd wallet derive is working properly. output should look like this after 
+
+![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture13.PNG "CLOSE")
+
+Please find below screenshot for of Bitcoin Testnet transactios recorded for our address 2 received and 6 sent 
+
+![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture14.PNG "CLOSE")
+
+Please find below screenshot for of Bitcoin Testnet transactios recorded for our address 2 received and 6 sent 
+
+![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture15.PNG "CLOSE")
+
+Please find below screenshot in which we check in git bash that hd wallet derive is working properly. output should look like this after 
+
+![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture16.PNG "CLOSE")
+
+Please find below screenshot for of Bitcoin Testnet transactios recorded for our address 2 received and 6 sent 
+
+![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture17.PNG "CLOSE")
+
+Please find below screenshot for of Bitcoin Testnet transactios recorded for our address 2 received and 6 sent 
+
+![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture18.PNG "CLOSE")
+
+
+
+### Deferred Equity Plan using Kovan Testnet 
+
+Please find below screenshot for of Bitcoin Testnet transactios recorded for our address 2 received and 6 sent 
+
+![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture19.PNG "CLOSE")
+
+Please find below screenshot for of Bitcoin Testnet transactios recorded for our address 2 received and 6 sent 
+
+![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture20.PNG "CLOSE")
+
+Please find below screenshot for of Bitcoin Testnet transactios recorded for our address 2 received and 6 sent 
+
+![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture21.PNG "CLOSE")
 
 ## Useful commands to send ETH and Bitcoin testnet 
 * send_tx(BTCTEST,btc_account,'mrwjTLQMeqrbU4eg6WGyL7xCf25ewAHsn2',0.0001)
