@@ -76,29 +76,29 @@ Please find below screenshot for Distribution function output. In this case the 
 ![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture18.PNG "CLOSE")
 
 
-
 ### Deferred Equity Plan using Kovan Testnet 
 
-Please find below screenshot for of Bitcoin Testnet transactios recorded for our address 2 received and 6 sent 
+Please find below screenshot using Kovan testnet deployment environment 
 
 ![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture19.PNG "CLOSE")
 
-Please find below screenshot for of Bitcoin Testnet transactios recorded for our address 2 received and 6 sent 
+Please find below screenshot for contract deployment on Kovan network
 
 ![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture20.PNG "CLOSE")
 
-Please find below screenshot for of Bitcoin Testnet transactios recorded for our address 2 received and 6 sent 
+Please find below screenshot for the distribution function 
 
 ![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture21.PNG "CLOSE")
 
-Please find below screenshot for of Bitcoin Testnet transactios recorded for our address 2 received and 6 sent 
+Please find below screenshot for the confirmation of the transaction using etherscan 
 
 ![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture22.PNG "CLOSE")
 
-## Useful commands to send ETH and Bitcoin testnet 
-* send_tx(BTCTEST,btc_account,'mrwjTLQMeqrbU4eg6WGyL7xCf25ewAHsn2',0.0001)
-* send_tx(ETH,eth_account,'0x30B7C972578985dD504Cd6E1846d55faF25CF37E',1)
+## Useful links and info 
+* https://kovan.etherscan.io/
+* https://remix.ethereum.org/
+* address used to deploy contracts 0x30B7C972578985dD504Cd6E1846d55faF25CF37E'
 
 ## Conclusions 
-* We were able to use hd wallet derive and python to send ETH and bitcoin testnet 
-* We use our network using The Clique Proof of Authority algorithm from previous assignment to send the ETH 
+* We were able to use Ganache, Metamask, and remix for smart contract development 
+* We use our local network as well as Kovan testnet 
