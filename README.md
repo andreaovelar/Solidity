@@ -34,11 +34,11 @@ Please find below screenshot after we click the deply bottom
 
 ![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture9.PNG "CLOSE")
 
-Please find below screenshot in which we check in git bash that hd wallet derive is working properly. output should look like this after 
+Please find below screenshot in which we send 6 ETH among the associates as well as initial balances 
 
 ![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture10.PNG "CLOSE")
 
-Please find below screenshot for of Bitcoin Testnet transactios recorded for our address 2 received and 6 sent 
+Please find below screenshot of balance after distributing Ether from first account to second, third, and forth (2 each)
 
 ![table](https://github.com/andreaovelar/Solidity/blob/master/images/Capture11.PNG "CLOSE")
 
